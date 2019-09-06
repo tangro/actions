@@ -1,6 +1,6 @@
 # Avalaible and planned actions
 
-- [x] `actions-audit` - Run `npm audit` and check for vulnarabilities
+- [x] `actions-audit` - Run `npm audit` and check for vulnerabilities
 - [x] `actions-coverage` - Run Code Coverage
 - [x] `actions-deploy` - Deploy a zip file to tangro-static file server
 - [x] `actions-license-check` - Check licenses of packages listed in package.json against a list of allowed licenses
