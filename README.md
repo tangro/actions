@@ -3,7 +3,7 @@
 - [x] `actions-audit` - Run `npm audit` and check for vulnarabilities
 - [x] `actions-coverage` - Run Code Coverage
 - [x] `actions-deploy` - Deploy a zip file to tangro-static file server
-- [ ] `actions-licenses` - Licenses of packages listed in package.json
+- [x] `actions-license-check` - Check licenses of packages listed in package.json against a list of allowed licenses
 - [ ] `actions-otrs` - Check issues and PRs for OTRS links and notify the OTRS tickets and reformat the URLs
 - [ ] `actions-release` - Build a release on milestone close
 - [x] `actions-test` - Run Tests
@@ -20,6 +20,10 @@ An action that collects the code coverage and sets a status to the commit with a
 # [actions-deploy](https://github.com/tangro/actions-deploy)
 
 An action to deploy a static site contained in a zip file to the tangro-static server.
+
+# [actions-license-check](https://github.com/tangro/actions-license-check)
+
+An action that checks the production licenses of the packags listed in the package.json of a package against a list of allowed licenses.
 
 # [actions-test](https://github.com/tangro/actions-test)
 
